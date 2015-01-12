@@ -45,7 +45,7 @@ var subtitles = ["Revelations", "Origins", "Awakening", "Apocalypse", "Reckoning
 var realNames = ["Battlecry", "Bloodborne", "Battleborne", "Battlefield",
   "Overstrike", "Black Ops", "Blacklight", "Skyfall", "Darkfall", "Shadowfall",
   "Skyforge", "Battleforge", "Battlestrike", "Bloodstrike", "Bloodforge",
-  "Skyborne"];
+  "Skyborne", "Warcry"];
 
 var convertToRoman = function(num) {
   switch (num) {
