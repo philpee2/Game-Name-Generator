@@ -39,7 +39,7 @@ var fillInName = function() {
 };
 
 var firsts = ["Battle", "Blood", "Over", "Sky", "Kill", "Dark", "Black", "War", "Shadow"];
-var lasts = ["cry", "field", "battle", "death", "dead", "borne", " Ops", "strike", "forge", "light"];
+var lasts = ["cry", "field", "battle", "death", "dead", "borne", " Ops", "strike", "forge", "light", "fall"];
 var subtitles = ["Revelations", "Origins", "Awakening", "Apocalypse", "Reckoning", "Damnation", "Legends", "Heroes", "Vengeance", "Revenge"];
 
 var realNames = ["Battlecry", "Bloodborne", "Battleborne", "Battlefield", "Overstrike", "Black Ops", "Blacklight"];
