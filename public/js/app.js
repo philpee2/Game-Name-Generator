@@ -19,7 +19,7 @@ var generateName = function() {
   var output = franchise;
   if (shouldNumber) {
     var number = _.random(2, 5);
-    var shouldRoman = _.random(0, 3);
+    var shouldRoman = _.random(0, 2);
     if (shouldRoman === 0) {
       output += " " + convertToRoman(number);
     } else {
@@ -42,7 +42,7 @@ var firsts = ["Battle", "Blood", "Over", "Sky", "Kill", "Dark", "Black", "War", 
 var lasts = ["cry", "field", "battle", "death", "dead", "borne", " Ops", "strike", "forge", "light", "fall"];
 var subtitles = ["Revelations", "Origins", "Awakening", "Apocalypse", "Reckoning", "Damnation", "Legends", "Heroes", "Vengeance", "Revenge"];
 
-var realNames = ["Battlecry", "Bloodborne", "Battleborne", "Battlefield", "Overstrike", "Black Ops", "Blacklight", "Skyfall", "Darkfall", "Shadowfall", "Skyforge"];
+var realNames = ["Battlecry", "Bloodborne", "Battleborne", "Battlefield", "Overstrike", "Black Ops", "Blacklight", "Skyfall", "Darkfall", "Shadowfall", "Skyforge", "Battleforge"];
 
 var convertToRoman = function(num) {
   switch (num) {
